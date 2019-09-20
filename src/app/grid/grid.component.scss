@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-areas:
+    'nav nav nav nav'
+    'main main main main';
+    grid-template-rows: 1fr 12fr;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    // margin: 0 8px;
+    background: indianred;
+}
+
+.nav {
+    grid-area: nav;
+}
+.main {
+    grid-area: main;
+}
