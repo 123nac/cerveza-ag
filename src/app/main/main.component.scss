@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.menu {
+    display: flex;
+    background: white;
+}
+.tab {
+    height: 20px;
+    width: 75px;
+    color: #333;
+    padding: 0 10px;
+    border: 1px solid #333;
+    cursor: default;
+}
+.tab:hover {
+    background: rgb(4, 2, 0, 0.4);
+}
+.content {
+    height: 100%;
+}
+.tab-content {
+    display: none;
+}
+.visible {
+    display: block;
+}
+
+.footer {
+    background: #333;
+    color: whitesmoke;
+    height: 30px;
+}

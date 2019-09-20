@@ -1,4 +1,22 @@
-<app-main-menu></app-main-menu>
-<app-lista-birras></app-lista-birras>
-<app-lista-carrito></app-lista-carrito>
-
+<div class="wrapper">
+    <div class="menu">
+        <!-- <app-main-menu></app-main-menu> -->
+        <div class="tab" id="js-tab-lista-birras">
+            lista birras
+        </div>
+        <div class="tab" id="js-tab-lista-carrito">
+            carrito
+        </div>
+    </div>
+    <div class="content">
+        <div class="tab-content" id="js-content-lista-birras">
+            <app-lista-birras></app-lista-birras>
+        </div>
+        <div class="tab-content" id="js-content-lista-carrito">
+            <app-lista-carrito></app-lista-carrito>
+        </div>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</div>
