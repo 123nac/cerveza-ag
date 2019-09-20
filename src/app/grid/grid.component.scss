@@ -1,8 +1,9 @@
 .grid {
     display: grid;
-    grid-template-areas:
-    'nav nav nav nav'
-    'main main main main';
+    // grid-template-areas:
+    // 'nav nav nav nav'
+    // 'main main main main';
+    grid-template-columns: repeat(4, 4fr);
     grid-template-rows: 1fr 12fr;
     position: fixed;
     height: 100%;
@@ -10,8 +11,12 @@
 }
 
 .nav {
-    grid-area: nav;
+    // grid-area: nav;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 .main {
-    grid-area: main;
+    // grid-area: main;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
